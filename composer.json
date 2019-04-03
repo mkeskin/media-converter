@@ -1,0 +1,33 @@
+{
+    "name": "mkeskin/media-converter",
+    "license": "MIT",
+    "description": "PHP Media Converter with FFmpeg",
+    "keywords": [
+        "media",
+        "conversion",
+        "transformer"
+    ],
+    "homepage": "https://github.com/mkeskin/media-converter",
+    "authors": [
+        {
+            "name": "Mustafa Keskin",
+            "email": "mustafa@keskin.work"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MediaConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MediaConverter\\Tests\\": "tests/"
+        }
+    }
+}
